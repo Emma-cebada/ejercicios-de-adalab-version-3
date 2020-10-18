@@ -13,4 +13,5 @@ function userGitOrg() {
     })
 }
 
+//Por el ejercicio de las camisetas creo que me falta el return ya que me tendría que devolver un array, pero no sé cómo hacerlo.
 inputButton.addEventListener("click", userGitOrg);
