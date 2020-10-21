@@ -21,7 +21,7 @@ function paintPalettes() {
     html += `<h2 class="palettes__name">${palette.name}</h2>`;
     html += `<div class="palettes__colors">`;
     for (const color of palette.colors) {
-      html += `<div class="palettes__color" style="background-color:#${color}">1</div>`;
+      html += `<div class="palettes__color" style="background-color:#${color}"></div>`;
     }
     html += "</div>";
     html += "</li>";
